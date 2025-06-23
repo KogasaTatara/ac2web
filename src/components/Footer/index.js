@@ -1,8 +1,8 @@
 function Foot() {
     return (
         <nav>
-            <div>
-                <p>Lorem ipison pliplipli plaplapla fds®</p>
+            <div class="footer-flex">
+                <p>Texto de Altoria que significa que o codigo é meu e fui eu que fiz®</p>
             </div>
         </nav>
     )

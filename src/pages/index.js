@@ -1,11 +1,12 @@
 import Foot from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import Mensagem from "@/components/Mensagem";
 
 function Home() {
   return (
-    <main class="background">
+    <main>
       <Navbar />
-      <p>deus está morto slk</p>
+      <Mensagem />
       <Foot />
     </main>
   )

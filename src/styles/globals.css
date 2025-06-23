@@ -27,10 +27,113 @@ body {
 
 .background {
     background-image: url("https://img.amiami.com/images/product/main/242/GOODS-04480772.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30vh;
 }
 
-.j42:hover {
-  font-size: 18px;
-  height: 100px;
 
+.flex-col-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-row-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.box-branco {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  margin: 2rem auto;
+  max-width: 600px;
+  color: #333;
+  padding: 2rem;
+}
+
+.btn-principal {
+  padding: 0.5rem 1.5rem;
+  border-radius: 6px;
+  background: #222;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.input-principal {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-top: 0.25rem;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60px;
+  background: #f8f8f8;
+  box-shadow: 0 -2px 8px rgba(0,0,0,0.04);
+  font-size: 1rem;
+  color: #333;
+  margin-top: 2rem;
+}
+
+.navbar-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f8f8f8;
+  padding: 1rem;
+  color: #333;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  gap: 2rem;
+}
+
+.projetos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.card-projeto {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.card-projeto:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.16);
+}
+
+.card-projeto h3 {
+  margin: 0.5rem 0 0.25rem 0;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.card-projeto p {
+  font-size: 1rem;
+  color: #555;
+  margin: 0;
 }

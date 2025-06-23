@@ -1,7 +1,7 @@
 function Navbar() {
     return (
         <nav>
-            <div>
+            <div class="navbar-flex">
                 <div><a href='/'>Home</a></div>
                 <div><a href='/about'>Sobre Mim</a></div>
                 <div><a href='/projects'>Projetos</a></div>

@@ -2,9 +2,10 @@ function Navbar() {
     return (
         <nav>
             <div>
-                <div><a href='/'>home</a></div>
-                <div><a href='/about'>about</a></div>
-                <div><a href='/contact'>Contact</a></div>
+                <div><a href='/'>Home</a></div>
+                <div><a href='/about'>Sobre Mim</a></div>
+                <div><a href='/projects'>Projetos</a></div>
+                <div><a href='/contact'>Contato</a></div>
             </div>
         </nav>
     )

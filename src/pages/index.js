@@ -1,10 +1,12 @@
+import Foot from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 
 function Home() {
   return (
-    <main>
+    <main class="background">
       <Navbar />
-      <img src='https://img.amiami.com/images/product/main/242/GOODS-04480772.jpg'></img>
+      <p>deus está morto slk</p>
+      <Foot />
     </main>
   )
 }

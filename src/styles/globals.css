@@ -24,3 +24,13 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.background {
+    background-image: url("https://img.amiami.com/images/product/main/242/GOODS-04480772.jpg");
+}
+
+.j42:hover {
+  font-size: 18px;
+  height: 100px;
+
+}
